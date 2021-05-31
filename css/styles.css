@@ -1,13 +1,5 @@
-/* body {
-  width: 695px;
-  height: 842px;
-  border: 1px solid darkcyan;
-  margin: auto;
-  position: relative;
-  padding: 20px;
-} */
 
-div.row {
+div.row.section {
   margin-top: 10px;
 }
 
@@ -31,31 +23,13 @@ fieldset legend {
   border-radius: 150px;
   border: 1px solid rgb(83, 140, 226);
   box-shadow: 2px 3px 10px rgb(125, 151, 236);
-  margin: 10px 15px 10px 0;
+  margin: 30px 15px 10px 0;
   filter: grayscale(30%);
 }
 
 #header-nav {
   border-radius: 0;
   border: 0;
-}
-
-.navbar-brand h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: cornflowerblue;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 10px;
-  line-height: .75;
-}
-
-.navbar-brand a:hover,
-.navbar-brand a:focus {
-  text-decoration: none;
 }
 
 #nav-list {
@@ -113,7 +87,7 @@ fieldset legend {
   body {
     width: 695px;
     border: 1px solid darkcyan;
-    margin: auto;
+    margin: 20px auto;
     position: relative;
     padding: 20px;
   }
@@ -134,6 +108,7 @@ fieldset legend {
     width: 695px;
     border: 1px solid darkcyan;
     margin: auto;
+    margin-top: 20px;
     position: relative;
     padding: 10px;
   }
@@ -171,30 +146,20 @@ fieldset legend {
 @media (max-width: 479px) {
 
   body {
-    width: 130%;
-    border: 1px solid darkcyan;
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
     margin-bottom: 20px;
-    position: relative;
-    padding: 10px;
+  }
+  #profilepic {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
   }
 
-  div.row {
-    margin-top: 2px;
+  h1{
+    font-size: 18px;
   }
-
-  /* #profilepic {
-  width: 100px;
-  height: 100px;
-  float: left;
-  border-radius: 150px;  
-  border: 1px solid rgb(83, 140, 226);
-  box-shadow: 2px 3px 10px rgb(125, 151, 236);
-  margin: 10px 10px 10px 0;
-  filter: grayscale(30%);
-} */
+ 
 
 .show-icon-minnor-screen {
   display: block;
